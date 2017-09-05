@@ -30,3 +30,15 @@ function makeInt(n) {
     return parseInt(n, 10)
   }
 }
+
+function preserveDecimal(n) {
+  if (n === n.toString) {
+    return parseFloat(n.toString)
+  }
+  else {
+    return parsefloat(n)
+  }
+}
+
+
+
