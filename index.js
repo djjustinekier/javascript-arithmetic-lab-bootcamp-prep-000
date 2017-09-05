@@ -39,6 +39,3 @@ function preserveDecimal(n) {
     return parsefloat(n)
   }
 }
-
-
-
