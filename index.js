@@ -32,10 +32,10 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  if (n === n.toString) {
-    return parseFloat(n.toString)
+  if (n === 'n') {
+    return parseFloat('n')
   }
   else {
-    return parsefloat(n)
+    return parseFloat('n')
   }
 }
